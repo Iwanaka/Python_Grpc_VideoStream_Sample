@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+//server
+service MainServer{
+	rpc getStream (stream Request) returns (stream Reply) {}
+}
+
+message Request {
+	bytes datas = 1;
+}
+
+message Reply {
+	int32 reply = 1;
+}

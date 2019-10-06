@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message Request{
+	string msg = 1;
+}
+
+message Reply{
+	bytes datas = 1;
+}
+
+
+// responce server
+service MainServer{
+	rpc getStream (stream Request) returns (stream Reply) {}
+}
