@@ -30,7 +30,7 @@ $ python Server.py<br>
 $ python Client.py<br>
 
 
-### LICENS
+### LICENSE
 Copyright 2015 gRPC authors.<br>
 Licensed under the Apache License, Version 2.0 (the "License");<br>
 you may not use this file except in compliance with the License.<br>
